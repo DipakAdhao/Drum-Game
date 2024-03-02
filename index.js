@@ -51,13 +51,13 @@ btn.forEach((button) => button.addEventListener("click", () => {
 
 // Define the key-audio mappings
 const keyAudioMap = {
-    'w': '/DrumGame/sounds/tom-1.mp3',
-    'a': '/DrumGame/sounds/tom-2.mp3',
-    's': '/DrumGame/sounds/tom-3.mp3',
-    'd': '/DrumGame/sounds/tom-4.mp3',
-    'j': '/DrumGame/sounds/snare.mp3',
-    'k': '/DrumGame/sounds/crash.mp3',
-    'l': '/DrumGame/sounds/kick-bass.mp3'
+    'w': '/sounds/tom-1.mp3',
+    'a': '/sounds/tom-2.mp3',
+    's': '/sounds/tom-3.mp3',
+    'd': '/sounds/tom-4.mp3',
+    'j': '/sounds/snare.mp3',
+    'k': '/sounds/crash.mp3',
+    'l': '/sounds/kick-bass.mp3'
   };
   
   // Function to play audio based on key press
